@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 100px;
+    justify-content: space-around; /*分散对齐*/
+    font-size: 12px;
+    background-color: #333333;
+    display: flex; /*设置在一行*/
+} 
+
+ .box a{
+     text-decoration: none;
+ }
+.nav a:link{
+   color:#B0B0B0; 
+}
+.nav a:visited{
+    color:#B0B0B0; 
+}
+.nav a:hover{
+    color:white; 
+}
+.nav1 a:link{
+    color:#B0B0B0; 
+}
+.nav1 a:visited{
+    color:#B0B0B0; 
+}
+.nav1 a:hover{
+    color: white;
+}
+.box1{
+    height: 120px;
+    line-height:120px; 
+    padding: 0 100px;
+   
+    justify-content: space-between;
+    display: inline-block;
+    display: flex;
+}
+.header{
+    width: 50px;
+    height: 50px;
+    margin: 35px;
+    line-height: 120px;
+    background-color: #FF6700;
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: center;
+    background-image: url(image/xm.png);
+    
+} 
+
+.box3{
+    
+    height: 570px;
+    background-color: white;
+    /* padding: 0 100pc; */
+    background-size: 1200px 570px;
+   
+    background-repeat: no-repeat;
+    background-image: url(image/gw.jpg);
+    /* display: flex;
+    align-items:center ; */
+    
+    justify-content: center;
+    /* padding: 0 100px; */
+}
+ 
